@@ -1,0 +1,68 @@
+@import url(reset.css);
+@import url(main-theme.css);
+
+html {
+    font-size: 10px;
+    height: 100%;
+}
+
+/* Navbar Layout */
+
+.navbar-wrapper, .wrapper {
+    width: 100%;
+}
+
+.navbar, .main-content {
+    max-width: 1920px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2.5px solid var(--navbar-line-color);
+    padding-bottom: 4rem;
+}
+
+.navbar-contact-info {
+    font-size: 1.8rem;
+    font-family: var(--top-bar-font);
+    font-weight: 600;
+}
+
+.navbar-contact-info ul li {
+    float: left;
+    margin-top: 3.7rem;
+    margin-right: 7.7rem;
+    text-decoration: none;
+}
+
+.logo-dentino {
+    position: relative;
+    top: 2rem;
+    left: 8rem;
+}
+
+.navbar-menu::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.navbar-menu {
+    font-size: 2rem;
+    font-family: var(--top-bar-font);
+    padding-bottom: 8rem;
+}
+
+.navbar-menu-list li {
+    position: relative;
+    float: left;
+    padding-right: 8rem;
+    left: 37rem;
+}
+
+.navbar-menu-list {
+    position: relative;
+    top: 4.1rem;
+}
+
