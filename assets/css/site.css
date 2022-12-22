@@ -12,6 +12,14 @@ html {
     width: 100%;
 }
 
+.navbar-wrapper {
+    position: fixed;
+    background-color: var(--background-color);
+    overflow: hidden;
+    box-shadow: 0px 15px 60px -50px var(--shadow-blue); 
+    z-index: 100;
+}
+
 .navbar, .main-content {
     max-width: 1920px;
 }
@@ -42,16 +50,10 @@ html {
     left: 8rem;
 }
 
-.navbar-menu::after {
-    clear: both;
-    content: "";
-    display: block;
-}
-
 .navbar-menu {
     font-size: 2rem;
     font-family: var(--top-bar-font);
-    padding-bottom: 8rem;
+    padding-bottom: 10rem;
 }
 
 .navbar-menu-list li {
@@ -64,5 +66,65 @@ html {
 .navbar-menu-list {
     position: relative;
     top: 4.1rem;
+}
+
+/* Main Content Layout */
+
+.wrapper {
+    padding-top: 45rem;
+
+}
+
+/* Main Info Layout */
+
+.main-info {
+    display: flex;
+    justify-content: center;
+}
+
+.main-title h1 {
+    font-family: var(--title-font);
+    font-weight: 800;
+    font-size: 7rem;
+    color: var(--title-color-blue);
+    position: relative;
+    left: 17.5rem;
+    line-height: 9rem;
+    bottom: 4rem;
+}
+
+.main-title-paragraph {
+    font-family: var(--paragraph-font);
+    font-size: 2rem;
+    width: 50%;
+    position: relative;
+    left: 18.5rem;
+    line-height: 4rem;
+    color: var(--paragraph-black);
+}
+
+.main-title-btn-appointment {
+    font-family: var(--title-font);
+    font-size: 1.8rem;
+    font-weight: 600;
+    position: relative;
+    left: 37rem;
+    top: 4.5rem;
+    margin-bottom: 16rem;
+}
+
+.main-title-btn-appointment a {
+    font-family: var(--title-font);
+    color: white;
+    background-color: var(--btn-color);
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-radius: 5rem/5rem;
+    padding: 1.6rem 6rem 2.4rem 6rem;
+}
+
+.main-title-our-services {
+    display: flex;
+    justify-content: center;
 }
 
