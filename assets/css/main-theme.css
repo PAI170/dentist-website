@@ -1,1 +1,30 @@
-@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+:root {
+
+    /* Fonts */
+
+    --title-font: 'Montserrat', sans-serif;
+    --paragraph-font: 'Open Sans', sans-serif;
+    --top-bar-font: 'Montserrat', sans-serif;
+
+    /* Color */
+
+    --title-color-blue: #062d92;
+    --title-color-black: #1b262c;
+    --paragraph-black: #52575d;
+    --btn-color: #0753f0;
+    --shadow-blue: #0028ff;
+    --background-top-color: #e5ebff;
+    --background-color: #ffffff;
+    --background-color-main-info: #e4ebfe;
+    --background-section-color: #d8d8d8;
+    --navbar-line-color: #e9e9e9;
+
+
+}
+
+
